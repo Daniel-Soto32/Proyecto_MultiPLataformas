@@ -1,0 +1,439 @@
+.formStyle{
+    padding-bottom: 30px; 
+    padding-right: 20px ;
+    width: 300px;
+}
+
+.btn-circle{
+    width: 50px;
+    height: 50px;
+    padding: 12px 0px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 1.42857;
+    background-color: #69c26f;
+}
+
+.btn-pac{
+    color:black;
+}
+
+.btn-doc{
+    color:red;
+}
+
+.logoStyle{
+    padding-top: 300px;
+    text-align: center;
+}
+
+.styleRegistrar{
+    text-align: center;
+}
+
+.logoStyle img{
+    height: 100px;
+}
+
+.inputStyle{
+    border-radius: 10px;
+}
+
+.inputTitle{
+    padding-bottom: 10px; 
+    float: left;
+}
+
+.diagonal-gradient {
+    background: linear-gradient(to bottom right, #34973b, #a2e0a2);
+  }
+
+.titleCard{
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top:-10px;
+    margin-left: 25px;
+    background:white;
+    color: #69c26f;
+}
+
+.cardDoc{
+    border: 1px solid #77DD77;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 70px;
+    height: 300px;
+}
+
+/*Fonts*/
+.hRegistrar{
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+
+.h2Nat{
+    color: white;
+    font-size: 20px;
+}
+
+.h3Nat{
+    font-size: 20px;
+    margin: 50px;
+    font-weight: bold;
+}
+
+.h4Titles{
+    font-size: 16px;
+    margin: 30px;
+    font-weight: bold;
+}
+.pageTitle{
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+    font-weight: bold;
+    color: rgb(31, 31, 31);
+}
+
+.text-divider {
+    display: flex;
+    color: #90c490;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 10px;
+    align-items: center; 
+  }
+  
+  .text-divider::before,
+  .text-divider::after {
+    content: '';
+    height: 1px;
+    background-color: #97df97;
+    flex-grow: 1; 
+  }
+
+/* NavBar */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+header{
+    height: 90px;
+    background: #57BE5B;
+}
+
+.inner-width{
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: auto;
+}
+.modal {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -150px;
+    margin-top: -150px;
+ }
+
+.modalAdd{
+    width: 800px;
+    height: 500px;
+    align-items: center;
+    left: 30%;
+    top: 20%; 
+    margin-left: -100px;
+    margin-top: -50px;
+}
+
+.modal2{ width: 300px;
+    height: 300px;
+    left: 50%;
+    top: 50%; 
+    margin-left: -150px;
+    margin-top: -150px;
+}
+
+.logo{
+    float: left;
+    padding: 20px 0;
+}
+
+.imgPac{
+float: left;
+}
+
+.imgPac img{
+    height: 500px;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.navigation-menu{
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+    
+}
+
+.navigation-menu a{
+    margin-left: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    transition: .3s linear;
+    text-decoration: none;
+}
+
+.navigation-menu a:hover{
+    background: #77DD77;
+    color: white;
+    transform: scale(1.1);
+}
+
+.navigation-menu i{
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+.menu-toggle-btn{
+    float: right;
+    height: 90px;
+    line-height: 90px !important;
+    color: #fff;
+    font-size: 26px;
+    display: none !important;
+    cursor: pointer;
+}
+
+@media screen and (max-width:700px) {
+    .menu-toggle-btn{
+        display: block !important;
+    }
+
+    .navigation-menu{
+        position: fixed;
+        width: 100%;
+        max-width: 400px;
+        background: #59c761;
+        top: 90px;
+        right: 0;
+        display: none;
+        padding: 20px 40px;
+        box-sizing: border-box;
+    }
+
+    .navigation-menu a{
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .navigation-menu ::before{
+        content: "";
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #59c761;
+        position: absolute;
+        top: -10px;
+        right: 10px;
+    }
+
+    .navigation-menu.active{
+        display: block;
+    }
+}
+
+/*Barra busqueda*/
+.searchBar{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    border-color: #40a847;
+    width: 250px; 
+    margin: 10px;
+}
+
+/*TABLA*/
+.table_conf{
+    padding-top: 80px;
+}
+
+.table_pacients{
+    border-collapse: collapse;
+    width: 90%;   
+}
+
+td {
+    border: 1px solid rgb(192, 190, 190);
+    padding: 8px;
+    text-align: center;
+  }
+
+th {
+    font-size: 20px;
+    font-weight: normal;
+    border: 1px solid;
+    text-align: center;
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #46AF4C;
+    color: white;
+  }
+
+tr{
+    border-radius: 25px;
+}
+
+/*iconos tablas*/
+.delete,.add{
+    color: #245F28;
+}
+
+.buttonEdit{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+.buttonEdit:hover {
+    background-color: rgb(59, 105, 255);
+    color: white;
+    
+}
+
+.buttonAlta{
+    border-radius: 10px;
+}
+
+.buttonDelete{
+    background-color: rgb(228, 33, 33);
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.buttonDelete:hover {
+    background-color: rgb(226, 86, 86);
+    color: white;
+    
+}
+
+.buttonSee{
+    background-color: rgb(248, 161, 0);
+    color: white;
+    border-radius: 10px;
+}
+
+.buttonSee:hover {
+    background-color:  rgb(231, 187, 43);
+    color: white;
+    
+}
+
+/*botones*/
+.btnLogin{
+    width: 100px;
+    -color: #42AB49;
+    border-color: #42AB49 ; 
+    border-radius: 25% 5%;
+}
+
+.customizedNat{
+    
+    color: white;
+    width: 100px;
+    background-color: #42AB49;
+    border-color: #42AB49 ; 
+    border-radius: 25% 5%;
+}
+
+.add-receta{
+    position: absolute;
+    top: 100px;
+    left: 80%;
+    border-radius: 10px;
+    background-color: #1c8b24;
+}
+
+.btnAddReceta {
+    position: absolute;
+    top: 180px;
+    left: 80%;
+    background: #1c8b24;
+    border-radius: 10px;
+    box-shadow: #69c26f 0 10px 8px -12px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: normal;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+
+.btnAddReceta:hover {
+    background-color: #69c26f;
+    color: white;
+    font-size: 120%;
+    
+}
+.return_home{
+    position: absolute;
+    top: 100px;
+    right: 85%;
+    transform: rotate(180deg); 
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #1c8b24;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.return_home span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .return_home span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .return_home:hover span {
+    padding-right: 25px;
+  }
+  
+  .return_home:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
